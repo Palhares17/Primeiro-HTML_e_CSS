@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev.fincence$</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,600&display=swap"
+        rel="stylesheet">
+    <script src="./index.js">
+
+    </script>
+</head>
+
+<body>
+    <header>
+        <img src="assets/assets/logo.svg" alt="Logo dev finence">
+    </header>
+
+    <main class="conteiner">
+        <section id=balance>
+            <h2 class="sr-only">Balanço</h2>
+
+            <div class="card">
+                <h3>
+                    <span>Entradas</span>
+                    <img src="assets/assets/income.svg" alt="entradas">
+                </h3>
+                <p>R$ 5000.00</p>
+            </div>
+
+            <div class="card">
+                <h3>
+                    <span>Saídas</span>
+                    <img src="assets/assets/expense.svg" alt="saídas">
+                </h3>
+                <p>R$300.00</p>
+            </div>
+
+            <div class="card total  ">
+                <h3>
+                    <span>Total</span>
+                    <img src="assets/assets/total.svg" alt="total">
+                </h3>
+                <p>R$4700.00</p>
+            </div>
+        </section>
+
+        <section id="transaction">
+            <h2 class="sr-only">Transação</h2>
+
+            <a href="#" class="botton new">+ nova transação</a>
+
+            <table id="data-table">
+                <thead>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                    <th>Data</th>
+                    <th></th>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="description">Luz</td>
+                        <td class="expense">- R$500.00</td>
+                        <td class="date">12/09/2021</td>
+                        <td>
+                            <img src="assets/assets/minus.svg" alt="remove">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="description">Vendas online</td>
+                        <td class="income">+ R$1000.00</td>
+                        <td class="date">07/05/2021</td>
+                        <td>
+                            <img src="assets/assets/minus.svg" alt="remove">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="description">Internet</td>
+                        <td class="expense">-99.00</td>
+                        <td class="date">10/12/2021</td>
+                        <td>
+                            <img src="assets/assets/minus.svg" alt="remove">
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>Dev.finenci$</p>
+    </footer>
+</body>
+
+</html>
